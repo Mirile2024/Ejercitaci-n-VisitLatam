@@ -185,6 +185,10 @@ footer ul {
 /*** Responsive */
 /* --------------for 768px----------------------- */
 @media (max-width: 768px){
+    h1{
+        text-align: center;
+        font-size: 150%;
+    }
     section>div {
         display: flex;
         flex-direction: column;
@@ -219,25 +223,7 @@ footer>div{
 }
 
 }
-/* -----------------for 450px----------- */
-@media(max-width: 72rem) {
-
-    /* #card-section>div{
-        display: inline-flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .card {
-        width: 35%;
-    } */
-
-    .contacto {
-       
-    }
-
-    .formulario {
-       
-    }
-
+/* ------------------for 450------ */
+h1{
+    font-size: 300%;
 }
